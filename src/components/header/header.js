@@ -19,8 +19,14 @@ const Header = ({ numItems, total }) => {
 };
 
 const mapStateToProps = ({ shoppingCart }) => {
+  const numItems = 0;
+
+  for (let i = 0; i < shoppingCart.cartItems.length; i++) {
+    numItems += shoppingCart.cartItems[i].count;
+  }
+
   return {
-    numItems: shoppingCart.cartItems.length,
+    numItems,
     total: shoppingCart.orderTotal,
   };
 };
