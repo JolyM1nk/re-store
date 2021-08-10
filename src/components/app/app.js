@@ -8,7 +8,7 @@ import Header from '../header';
 const App = () => {
   return (
     <main role="main" className="container">
-      <Header numItems={5} total={140} />
+      <Header />
       <Switch>
         <Route path="/home" component={HomePage} />
         <Route path="/cart" component={CartPage} />
