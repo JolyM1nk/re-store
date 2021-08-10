@@ -1,0 +1,43 @@
+@keyframes ldio-8ffm91en3f {
+  0%, 100% {
+    animation-timing-function: cubic-bezier(0.45,0,0.9,0.55)
+  }
+  0% {
+    transform: translate(0,0)
+  }
+  50% {
+    transform: translate(0,108px);
+    animation-timing-function: cubic-bezier(0,0.45,0.55,0.9);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+.ldio-8ffm91en3f div {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #0dcaf0;
+  left: 74px;
+  top: 20px;
+  animation: ldio-8ffm91en3f 0.75s linear infinite;
+}
+.loadingio-spinner-ball-dvdsrb5697m {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  display: block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-8ffm91en3f {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+.ldio-8ffm91en3f div { box-sizing: content-box; }
