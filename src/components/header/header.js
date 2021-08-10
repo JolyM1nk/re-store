@@ -19,7 +19,7 @@ const Header = ({ numItems, total }) => {
 };
 
 const mapStateToProps = ({ shoppingCart }) => {
-  const numItems = 0;
+  let numItems = 0;
 
   for (let i = 0; i < shoppingCart.cartItems.length; i++) {
     numItems += shoppingCart.cartItems[i].count;

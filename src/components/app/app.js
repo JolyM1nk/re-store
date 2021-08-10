@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import './app.css';
 
 import { HomePage, CartPage } from '../pages';
@@ -12,6 +12,7 @@ const App = () => {
       <Switch>
         <Route path="/home" component={HomePage} />
         <Route path="/cart" component={CartPage} />
+        <Route render={() => <Redirect to="/home" />} />
       </Switch>
     </main>
   );
