@@ -13,7 +13,7 @@ export default class RestoreService {
       title: 'Release It!',
       author: 'Michael T. Nygard',
       price: 25,
-      coverImage: 'https://antonz.ru/content/images/2017/12/release-it.jpg',
+      coverImage: 'https://images-na.ssl-images-amazon.com/images/I/81c+o9-DetL.jpg',
     },
   ];
 
